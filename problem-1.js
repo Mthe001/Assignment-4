@@ -7,14 +7,11 @@ function calculateTax(income, expenses) {
 
     let remaining  = (income - expenses) ;
     let tax = remaining * 0.2; 
-
-   if(0<=income || 0<=expenses){
-       return tax;
-   }
+   
+   return tax;
+   
   
 }
-
-
 
 
 
@@ -40,8 +37,6 @@ function sendNotification(email) {
 
 
 
-
-
 function checkDigitsInName(name){
     if(typeof name !== 'string'){
         return "Invalid Input";
@@ -54,11 +49,6 @@ function checkDigitsInName(name){
     }
     return false;
 }
-
-
-
-
-
 
 
 
@@ -82,17 +72,6 @@ function calculateFinalScore(obj) {
         return finalscore >= 80;
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
